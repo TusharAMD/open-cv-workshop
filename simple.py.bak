@@ -4,7 +4,7 @@ import cv2
 img = cv2.imread('2.jpg')
 
 #Open a png (retain transparency)
-#img = cv2.imread('transparent.png',cv2.IMREAD_UNCHANGED)
+#img = cv2.imread('transparent.png',cv.IMREAD_UNCHANGED)
 
 print(img)
 print(f"num of dim {img.ndim}")
